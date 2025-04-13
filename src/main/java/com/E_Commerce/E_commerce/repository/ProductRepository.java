@@ -1,4 +1,4 @@
-package com.ecom.repository;
+package com.E_Commerce.E_commerce.repository;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.ecom.model.Product;
+import com.E_Commerce.E_commerce.model.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Integer> {
 

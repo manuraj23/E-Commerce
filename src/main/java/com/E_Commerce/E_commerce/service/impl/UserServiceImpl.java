@@ -1,4 +1,4 @@
-package com.ecom.service.impl;
+package com.E_Commerce.E_commerce.service.impl;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -16,10 +16,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.ecom.model.UserDtls;
-import com.ecom.repository.UserRepository;
-import com.ecom.service.UserService;
-import com.ecom.util.AppConstant;
+import com.E_Commerce.E_commerce.model.UserDtls;
+import com.E_Commerce.E_commerce.repository.UserRepository;
+import com.E_Commerce.E_commerce.service.UserService;
+import com.E_Commerce.E_commerce.util.AppConstant;
 
 @Service
 public class UserServiceImpl implements UserService {

@@ -1,8 +1,8 @@
-package com.ecom.service;
+package com.E_Commerce.E_commerce.service;
 
 import java.util.List;
 
-import com.ecom.model.Cart;
+import com.E_Commerce.E_commerce.model.Cart;
 
 public interface CartService {
 

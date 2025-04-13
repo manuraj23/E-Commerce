@@ -1,4 +1,4 @@
-package com.ecom.service;
+package com.E_Commerce.E_commerce.service;
 
 public interface CommonService {
 

@@ -1,4 +1,4 @@
-package com.ecom.config;
+package com.E_Commerce.E_commerce.config;
 
 import java.io.IOException;
 import java.util.Collection;

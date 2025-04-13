@@ -1,11 +1,11 @@
-package com.ecom.service;
+package com.E_Commerce.E_commerce.service;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.ecom.model.Product;
+import com.E_Commerce.E_commerce.model.Product;
 
 public interface ProductService {
 

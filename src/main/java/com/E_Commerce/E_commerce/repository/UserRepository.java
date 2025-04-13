@@ -1,10 +1,10 @@
-package com.ecom.repository;
+package com.E_Commerce.E_commerce.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.ecom.model.UserDtls;
+import com.E_Commerce.E_commerce.model.UserDtls;
 
 public interface UserRepository extends JpaRepository<UserDtls, Integer> {
 

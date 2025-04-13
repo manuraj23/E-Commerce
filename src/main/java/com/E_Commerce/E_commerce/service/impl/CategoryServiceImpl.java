@@ -1,4 +1,4 @@
-package com.ecom.service.impl;
+package com.E_Commerce.E_commerce.service.impl;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
-import com.ecom.model.Category;
-import com.ecom.repository.CategoryRepository;
-import com.ecom.service.CategoryService;
+import com.E_Commerce.E_commerce.model.Category;
+import com.E_Commerce.E_commerce.repository.CategoryRepository;
+import com.E_Commerce.E_commerce.service.CategoryService;
 
 @Service
 public class CategoryServiceImpl implements CategoryService {

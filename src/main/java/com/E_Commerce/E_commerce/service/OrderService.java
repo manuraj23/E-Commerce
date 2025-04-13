@@ -1,11 +1,11 @@
-package com.ecom.service;
+package com.E_Commerce.E_commerce.service;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 
-import com.ecom.model.OrderRequest;
-import com.ecom.model.ProductOrder;
+import com.E_Commerce.E_commerce.model.OrderRequest;
+import com.E_Commerce.E_commerce.model.ProductOrder;
 
 public interface OrderService {
 

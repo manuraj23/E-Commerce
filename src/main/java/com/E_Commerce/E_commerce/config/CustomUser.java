@@ -1,4 +1,4 @@
-package com.ecom.config;
+package com.E_Commerce.E_commerce.config;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -7,7 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.ecom.model.UserDtls;
+import com.E_Commerce.E_commerce.model.UserDtls;
 
 public class CustomUser implements UserDetails {
 

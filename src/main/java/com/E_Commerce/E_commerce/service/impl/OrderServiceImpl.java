@@ -1,4 +1,4 @@
-package com.ecom.service.impl;
+package com.E_Commerce.E_commerce.service.impl;
 
 import java.time.LocalDate;
 import java.util.Date;
@@ -12,15 +12,15 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import com.ecom.model.Cart;
-import com.ecom.model.OrderAddress;
-import com.ecom.model.OrderRequest;
-import com.ecom.model.ProductOrder;
-import com.ecom.repository.CartRepository;
-import com.ecom.repository.ProductOrderRepository;
-import com.ecom.service.OrderService;
-import com.ecom.util.CommonUtil;
-import com.ecom.util.OrderStatus;
+import com.E_Commerce.E_commerce.model.Cart;
+import com.E_Commerce.E_commerce.model.OrderAddress;
+import com.E_Commerce.E_commerce.model.OrderRequest;
+import com.E_Commerce.E_commerce.model.ProductOrder;
+import com.E_Commerce.E_commerce.repository.CartRepository;
+import com.E_Commerce.E_commerce.repository.ProductOrderRepository;
+import com.E_Commerce.E_commerce.service.OrderService;
+import com.E_Commerce.E_commerce.util.CommonUtil;
+import com.E_Commerce.E_commerce.util.OrderStatus;
 
 @Service
 public class OrderServiceImpl implements OrderService {

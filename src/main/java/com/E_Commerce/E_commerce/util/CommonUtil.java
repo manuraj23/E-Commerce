@@ -1,4 +1,4 @@
-package com.ecom.util;
+package com.E_Commerce.E_commerce.util;
 
 import java.io.UnsupportedEncodingException;
 import java.security.Principal;
@@ -8,9 +8,9 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Component;
 
-import com.ecom.model.ProductOrder;
-import com.ecom.model.UserDtls;
-import com.ecom.service.UserService;
+import com.E_Commerce.E_commerce.model.ProductOrder;
+import com.E_Commerce.E_commerce.model.UserDtls;
+import com.E_Commerce.E_commerce.service.UserService;
 
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;

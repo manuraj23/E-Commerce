@@ -1,4 +1,4 @@
-package com.ecom.util;
+package com.E_Commerce.E_commerce.util;
 
 public class AppConstant {
 

@@ -1,10 +1,10 @@
-package com.ecom.repository;
+package com.E_Commerce.E_commerce.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.ecom.model.Cart;
+import com.E_Commerce.E_commerce.model.Cart;
 
 public interface CartRepository extends JpaRepository<Cart, Integer> {
 
