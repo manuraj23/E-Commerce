@@ -1,4 +1,4 @@
-package com.ecom.controller;
+package com.E_Commerce.E_commerce.controller;
 
 import java.io.File;
 import java.io.IOException;
@@ -24,17 +24,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.ecom.model.Category;
-import com.ecom.model.Product;
-import com.ecom.model.ProductOrder;
-import com.ecom.model.UserDtls;
-import com.ecom.service.CartService;
-import com.ecom.service.CategoryService;
-import com.ecom.service.OrderService;
-import com.ecom.service.ProductService;
-import com.ecom.service.UserService;
-import com.ecom.util.CommonUtil;
-import com.ecom.util.OrderStatus;
+import com.E_Commerce.E_commerce.model.Category;
+import com.E_Commerce.E_commerce.model.Product;
+import com.E_Commerce.E_commerce.model.ProductOrder;
+import com.E_Commerce.E_commerce.model.UserDtls;
+import com.E_Commerce.E_commerce.service.CartService;
+import com.E_Commerce.E_commerce.service.CategoryService;
+import com.E_Commerce.E_commerce.service.OrderService;
+import com.E_Commerce.E_commerce.service.ProductService;
+import com.E_Commerce.E_commerce.service.UserService;
+import com.E_Commerce.E_commerce.util.CommonUtil;
+import com.E_Commerce.E_commerce.util.OrderStatus;
 
 import jakarta.servlet.http.HttpSession;
 
