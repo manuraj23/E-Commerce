@@ -1,4 +1,4 @@
-package com.ecom.config;
+package com.E_Commerce.E_commerce.config;
 
 import java.io.IOException;
 
@@ -8,11 +8,11 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler;
 import org.springframework.stereotype.Component;
 
-import com.ecom.model.UserDtls;
-import com.ecom.repository.UserRepository;
-import com.ecom.service.UserService;
-import com.ecom.service.impl.UserServiceImpl;
-import com.ecom.util.AppConstant;
+import com.E_Commerce.E_commerce.model.UserDtls;
+import com.E_Commerce.E_commerce.repository.UserRepository;
+import com.E_Commerce.E_commerce.service.UserService;
+import com.E_Commerce.E_commerce.service.impl.UserServiceImpl;
+import com.E_Commerce.E_commerce.util.AppConstant;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
