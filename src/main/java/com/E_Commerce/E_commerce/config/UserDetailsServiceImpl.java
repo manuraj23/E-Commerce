@@ -10,7 +10,7 @@ import com.E_Commerce.E_commerce.model.UserDtls;
 import com.E_Commerce.E_commerce.repository.UserRepository;
 
 @Service
-public class UserDetailsServiceImpl implements UserDetailsService {
+public class  UserDetailsServiceImpl implements UserDetailsService {
 
 	@Autowired
 	private UserRepository userRepository;
