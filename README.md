@@ -17,6 +17,7 @@ notification is integrated to send order confirmation and updated product status
 - JavaScript
 - Bootstrap
 
+
 ## Prerequisites
 - Java 11 or higher
 - Maven
