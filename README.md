@@ -4,7 +4,6 @@ E-commerce is a fully responsive ecommerce website, maximum compatibles in all m
 and tablets. It is built using Java, Spring Boot, and Spring Security with Role-Based Access Control (RBAC). The application provides a user-friendly interface for customers to browse products, manage their cart, track their order and place orders. Admins can manage products, view orders, and handle user accounts. Mail
 notification is integrated to send order confirmation and updated product status emails to users.
 
-
 ## Technologies Used
 - Java
 - Spring Boot
