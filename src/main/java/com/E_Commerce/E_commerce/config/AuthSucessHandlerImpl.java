@@ -1,9 +1,7 @@
 package com.E_Commerce.E_commerce.config;
-
 import java.io.IOException;
 import java.util.Collection;
 import java.util.Set;
-
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
